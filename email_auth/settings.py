@@ -47,10 +47,10 @@ INSTALLED_APPS = [
     'accounts',
 ]
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'waleedashir6@gmail.com'
-EMAIL_HOST_PASSWORD = 'Pioneering#1'
+EMAIL_HOST_USER = '2923694e2c00e2'
+EMAIL_HOST_PASSWORD = 'db3afe195268b1'
 EMAIL_USE_TLS = True
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
